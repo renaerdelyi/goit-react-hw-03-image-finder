@@ -1,6 +1,4 @@
-import axios from 'axios';
-
-// const API_KEY = 'u_rqjfjyl0xp'; 
+import axios from 'axios'; 
 
 export const fetchImages = async (query, page) => {
   const url = 'https://pixabay.com/api/?key=48986611-c492bb458e8c24f6619a5a131&q=yellow+flowers&image_type=photo';
