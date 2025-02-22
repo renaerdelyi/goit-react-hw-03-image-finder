@@ -1,4 +1,4 @@
-import { Component } from 'react';
+
 import ImageGalleryItem from './ImageGalleryItem';
 
 const ImageGallery = ({ images, onClickImage }) => {
